@@ -3,7 +3,7 @@
 - João Gabriel Abreu - 202302553
 - Lavínia Rocha - 202406934
 
-## Sistema de Controle de Inventário Doméstico
+## Sistema de Controle de Inventário Doméstico 
 
 ### Sobre o Projeto
 O StockBot é um sistema automatizado para controle e monitoramento de inventário doméstico, projetado para organizar e acompanhar itens essenciais como alimentos, produtos de limpeza e outros suprimentos. Integrando sensores com estruturas de dados, o robô coleta e processa informações em tempo real, destacando itens em baixa quantidade ou próximos ao vencimento. Essa solução auxilia na gestão eficiente de recursos domésticos, evitando desperdícios e otimizando o planejamento de compras.

@@ -19,7 +19,7 @@ Com o uso de listas, filas e árvores, o StockBot organiza os dados de maneira e
   - Árvores: Para busca e ordenação eficiente dos dados
 - **Sistemas Embarcados**: Para integração do robô em ambientes domésticos
 
-## Como Funciona
+### Como Funciona
 - **Coleta de Dados**: Sensores monitoram o status dos itens no inventário, registrando quantidade e validade
 - **Processamento de Informações**: Os dados coletados são armazenados em estruturas como listas, filas e árvores
 - **Classificação e Prioridade**: O sistema identifica itens críticos (em baixa quantidade ou vencidos) e destaca para o usuário

@@ -1,1 +1,30 @@
 relatórios técnicos e documentação em formato Markdown
+
+# Relatório
+
+## Seção I (Introdução)
+
+### 1. Problema
+O problema abordado é a gestão ineficiente de inventário doméstico, que resulta em desperdício de recursos, como alimentos vencidos ou compras desnecessárias, e na falta de itens essenciais no momento de necessidade. Este problema se aplica aos seguintes contextos:
+
+- **Residências**: Para monitorar o estoque de alimentos, produtos de limpeza e outros suprimentos.
+- **Pequenos negócios**: Como padarias, mercadinhos e restaurantes que precisam gerenciar estoques de maneira eficiente.
+
+### 2. Literatura
+
+### 3. Dataset
+**Base de dados auxiliar**: Catálogo inicial com nome, tipo e data de validade dos produtos.
+
+### 4. Métodos
+- **Manipulação de dados**: Inserção, remoção e busca eficiente utilizando listas e árvores.
+- **Análise de prioridade**: Implementação de filas de prioridade para destacar itens em baixa quantidade ou próximos ao vencimento.
+
+### 5. Avaliação
+Os resultados do sistema serão medidos utilizando as seguintes métricas:
+
+- **Tempo de resposta**: Verificar a eficiência das operações de busca, inserção e priorização.
+- **Usabilidade**: Avaliar a clareza da interface e sua utilidade.
+
+## Seção III (Metodologia)
+
+![Diagrama](Diagrama.jpg)

@@ -28,6 +28,24 @@ Os resultados do sistema serão medidos utilizando as seguintes métricas:
 - **Tempo de resposta**: Verificar a eficiência das operações de busca, inserção e priorização.
 - **Usabilidade**: Avaliar a clareza da interface e sua utilidade.
 
+## Seção II (Fundamentos Teóricos)
+
+- **Listas**: Estruturas lineares usadas para armazenar itens do inventário. São eficientes para inserção e remoção, adequadas para gerenciar o estoque.
+- **Filas**: Implementadas para priorizar itens críticos, como produtos com baixa quantidade ou perto do vencimento. A fila facilita o processamento de itens urgentes.
+
+### Algoritmos e Técnicas
+
+- **Busca**: A busca linear é utilizada para procurar itens nas listas. Podem ser aplicados algoritmos como busca em pilha, que podem simular a busca em estruturas lineares.
+- **Ordenação**: Algoritmos como **Bubble Sort** e **Insertion Sort** podem ser usados para ordenar o inventário de forma eficiente.
+- **Filas de Prioridade**: A fila simples ou uma fila circular pode ser utilizada para processar itens com maior urgência, como produtos com quantidade baixa ou próximos ao vencimento.
+
+### Avaliação da Solução
+
+- **Desempenho**: O sistema será avaliado pelo tempo de resposta das operações e pela eficiência das estruturas de dados.
+- **Escalabilidade**: O desempenho será testado com diferentes volumes de dados no inventário.
+- **Usabilidade**: A interface será avaliada quanto à clareza e facilidade de interação.
+
+
 ## Seção III (Metodologia)
 
 ![Diagrama](Diagrama.jpg)

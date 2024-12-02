@@ -39,9 +39,9 @@ Na submissão final, serão entregues os seguintes três itens (vide cronograma)
 
 ### Cronograma
 Os entregáveis semanais serão encaminhados nas seguintes datas:
-- [ ] 10/11: Formulário de validação da proposta
-- [ ] 22/11: Seção I (Introdução) e Seção III (Metodologia)
-- [ ] 29/11: Seção II (Fundamentos teóricos) e Seção IV (Resultados)
+- [X] 10/11: Formulário de validação da proposta
+- [X] 22/11: Seção I (Introdução) e Seção III (Metodologia)
+- [X] 29/11: Seção II (Fundamentos teóricos) e Seção IV (Resultados)
 - [ ] 04/12: Relatório completo, contendo a Seção V (Conclusões) e o código fonte
 - [ ] 05/12: Revisão entre pares (peer-review) e Slides
 - [ ] 06/12: Apresentação final

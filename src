@@ -117,7 +117,7 @@ No* adicionar_produtos_usuario(No* lista) {
     }
     return lista;
 }
-//função main, que vai rodar todas as outras funções para adicionar produtos ao inventário e depois escolhemos, como é exibida!
+//função main, que vai rodar todas as outras funções para adicionar produtos ao inventário e escolha de ordem.
 int main() {
     No* inventario = NULL;
     inventario = adicionar_produtos_usuario(inventario);
@@ -132,7 +132,7 @@ int main() {
     printf("Escolha uma opção: ");
     scanf("%d", &opcao);
 
-    //Switchzinho simples para a escolha de como vai ser ordenado o inventário!!!!!
+    //Switch para ordenação de inventário
     switch (opcao){  
         case 1: inventario = ordenar_por_validade(inventario);
             printf("\nInventário após ordenação por proximidade da validade:\n");

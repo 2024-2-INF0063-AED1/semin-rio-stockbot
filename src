@@ -4,18 +4,19 @@
 #include <time.h>
 
 #define MAX_NAME_LEN 50
+//definindo a Struct produto com seus respectivos atributos.
 
 typedef struct Produto {
     char nome[MAX_NAME_LEN];
     int quantidade;
     char validade[11];
 } Produto;
-
+//fazendo o Node.
 typedef struct No {
     Produto produto;
     struct No* proximo;
 } No;
-
+//função que cria, os objetos da Struct produto.
 Produto criar_produto(char nome[], int quantidade, char validade[]) {
     Produto p;
     strcpy(p.nome, nome);
@@ -30,7 +31,7 @@ No* adicionar_produto(No* lista, Produto p) {
     novo->proximo = lista;
     return novo;
 }
-
+//função que compara quantos dias faltam para a validade com a biblioteca time.h. Detalhe, se vc mudar a data do pc, os resultados do final do códigot tmb mudam.
 int dias_para_validade(const char* validade) {
     struct tm data_validade = {0};
     time_t agora = time(NULL);
@@ -45,7 +46,7 @@ int dias_para_validade(const char* validade) {
 
     return diferenca > 0 ? (int)(diferenca / (60 * 60 * 24)) : -1;
 }
-
+//função que ordena os produts do inventário por validade, comparando o atribudo validade de cada produto, percorrendo a fila inteira!
 No* ordenar_por_validade(No* lista) {
     if (lista == NULL) return NULL;
     No* i, *j;
@@ -63,7 +64,23 @@ No* ordenar_por_validade(No* lista) {
     }
     return lista;
 }
-
+//função que ordena os produts do inventário por quantidade, comparando o atribudo quantidade de cada produto, percorrendo a fila inteira!
+No* ordenar_por_quantidade(No* lista) {
+    if (lista == NULL) return NULL;
+    No* i, *j;
+    Produto temp;
+    for (i = lista; i != NULL; i = i->proximo) {
+        for (j = i->proximo; j != NULL; j = j->proximo) {
+            if (i->produto.quantidade < j->produto.quantidade) {
+                temp = i->produto;
+                i->produto = j->produto;
+                j->produto = temp;
+            }
+        }
+    }
+    return lista;
+}
+//função que percorre a lista e vai exibindo os atributos de cada "objeto" da Struct.
 void exibir_lista(No* lista) {
     No* atual = lista;
     while (atual != NULL) {
@@ -75,7 +92,7 @@ void exibir_lista(No* lista) {
         atual = atual->proximo;
     }
 }
-
+//função que adiciona os produtos, criando objetos e atribuindo cada objeto à uma lista.
 No* adicionar_produtos_usuario(No* lista) {
     char nome[MAX_NAME_LEN];
     int quantidade;
@@ -100,15 +117,34 @@ No* adicionar_produtos_usuario(No* lista) {
     }
     return lista;
 }
-
+//função main, que vai rodar todas as outras funções para adicionar produtos ao inventário e depois escolhemos, como é exibida!
 int main() {
     No* inventario = NULL;
     inventario = adicionar_produtos_usuario(inventario);
+
     printf("\nInventário antes da ordenação:\n");
     exibir_lista(inventario);
-    inventario = ordenar_por_validade(inventario);
-    printf("\nInventário após ordenação por proximidade da validade:\n");
+
+    int opcao;
+    printf("\nComo deseja ordenar o inventário?\n");
+    printf("1 - Por proximidade da validade\n");
+    printf("2 - Por quantidade (do maior para o menor)\n");
+    printf("Escolha uma opção: ");
+    scanf("%d", &opcao);
+
+    //Switchzinho simples para a escolha de como vai ser ordenado o inventário!!!!!
+    switch (opcao){  
+        case 1: inventario = ordenar_por_validade(inventario);
+            printf("\nInventário após ordenação por proximidade da validade:\n");
+        break;
+
+        case 2: inventario = ordenar_por_quantidade(inventario);
+            printf("\nInventário após ordenação por quantidade:\n");
+        break;
+
+        default: printf("Opção inválida! Exibindo inventário sem ordenação.\n");
+    } 
+
     exibir_lista(inventario);
     return 0;
 }
-

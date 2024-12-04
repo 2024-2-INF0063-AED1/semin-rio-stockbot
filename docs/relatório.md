@@ -107,5 +107,5 @@ O projeto desenvolvido foi um sistema de gerenciamento de inventário simples, q
 ## Apêndices  
 
 ### I. Diagrama de Fluxo  
-![Diagrama de fluxo do projeto](/home/gabriel/semin-rio-stockbot/assets/diagramafluxo.png)
+![image](https://github.com/user-attachments/assets/84b27a32-a351-4ca5-8950-79dc1650f6d7)
 

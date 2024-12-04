@@ -33,8 +33,8 @@ Com o uso de listas, filas e árvores, o StockBot organiza os dados de maneira e
 ### Entregas
 As entregas são sempre submetidas no GitHub, no link disponível também no Classroom.
 Na submissão final, serão entregues os seguintes três itens (vide cronograma):
-- [ ] 04/12: Relatório técnico (Documento escrito em formato Markdown, até 4 páginas)
-- [ ] 04/12: Código fonte (Arquivos dos códigos desenvolvidos)
+- [X] 04/12: Relatório técnico (Documento escrito em formato Markdown, até 4 páginas)
+- [X] 04/12: Código fonte (Arquivos dos códigos desenvolvidos)
 - [ ] 05/12: Slides (Documento editável da apresentação oral em link, PPTx ou LATEX)
 
 ### Cronograma
@@ -42,7 +42,7 @@ Os entregáveis semanais serão encaminhados nas seguintes datas:
 - [X] 10/11: Formulário de validação da proposta
 - [X] 22/11: Seção I (Introdução) e Seção III (Metodologia)
 - [X] 29/11: Seção II (Fundamentos teóricos) e Seção IV (Resultados)
-- [ ] 04/12: Relatório completo, contendo a Seção V (Conclusões) e o código fonte
+- [X] 04/12: Relatório completo, contendo a Seção V (Conclusões) e o código fonte
 - [ ] 05/12: Revisão entre pares (peer-review) e Slides
 - [ ] 06/12: Apresentação final
 

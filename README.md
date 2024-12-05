@@ -35,7 +35,7 @@ As entregas são sempre submetidas no GitHub, no link disponível também no Cla
 Na submissão final, serão entregues os seguintes três itens (vide cronograma):
 - [X] 04/12: Relatório técnico (Documento escrito em formato Markdown, até 4 páginas)
 - [X] 04/12: Código fonte (Arquivos dos códigos desenvolvidos)
-- [ ] 05/12: Slides (Documento editável da apresentação oral em link, PPTx ou LATEX)
+- [X] 05/12: Slides (Documento editável da apresentação oral em link, PPTx ou LATEX)
 
 ### Cronograma
 Os entregáveis semanais serão encaminhados nas seguintes datas:
@@ -43,7 +43,7 @@ Os entregáveis semanais serão encaminhados nas seguintes datas:
 - [X] 22/11: Seção I (Introdução) e Seção III (Metodologia)
 - [X] 29/11: Seção II (Fundamentos teóricos) e Seção IV (Resultados)
 - [X] 04/12: Relatório completo, contendo a Seção V (Conclusões) e o código fonte
-- [ ] 05/12: Revisão entre pares (peer-review) e Slides
+- [X] 05/12: Revisão entre pares (peer-review) e Slides
 - [ ] 06/12: Apresentação final
 
 ### Organização do Repositório
@@ -51,6 +51,7 @@ Os entregáveis semanais serão encaminhados nas seguintes datas:
 - docs/: Relatórios técnicos e documentação em formato Markdown
 - slides/: Apresentação do seminário em formato editável (PPTX ou LATEX)
 - assets/: Imagens, diagramas e outros materiais complementares
+- build/: Diretório contendo os arquivos gerados e utilizados pela CMakeLists.txt para configurar e compilar o projeto
 
 ### Como executar
 Para rodar o código, siga esses passos:

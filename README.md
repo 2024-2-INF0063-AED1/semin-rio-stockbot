@@ -86,3 +86,5 @@ Para rodar o código, siga esses passos:
      ```
 
 Isso irá compilar e executar o seu projeto StockBot baseado no arquivo [`src/main.c`](src/main.c).
+
+**Observação**: Se você estiver no Windows, siga este [tutorial](https://medium.com/@WamiqRaza/how-to-install-and-run-cmake-on-windows-692258b07b6f) para instalar e rodar o CMake no seu sistema.

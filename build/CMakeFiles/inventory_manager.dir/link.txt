@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/inventory_manager.dir/src/main.c.o -o inventory_manager 

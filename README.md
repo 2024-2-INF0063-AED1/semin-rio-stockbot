@@ -51,3 +51,37 @@ Os entregáveis semanais serão encaminhados nas seguintes datas:
 - docs/: Relatórios técnicos e documentação em formato Markdown
 - slides/: Apresentação do seminário em formato editável (PPTX ou LATEX)
 - assets/: Imagens, diagramas e outros materiais complementares
+
+### Como executar
+Para rodar o código, siga esses passos:
+
+1. **Instale o CMake**:
+   - Certifique-se de que você tem o CMake instalado no seu sistema. Você pode baixá-lo em [cmake.org](https://cmake.org/download/).
+
+2. **Crie um Diretório de Build**:
+   - Abra um terminal e navegue até o diretório raiz do seu projeto.
+   - Crie um diretório de build e navegue até ele:
+     ```sh
+     mkdir build
+     cd build
+     ```
+
+3. **Gere os Arquivos de Build**:
+   - Execute o CMake para gerar os arquivos de build:
+     ```sh
+     cmake ..
+     ```
+
+4. **Compile o Projeto**:
+   - Execute o seguinte comando para compilar o projeto:
+     ```sh
+     make
+     ```
+
+5. **Execute o Executável**:
+   - Após a compilação ser concluída, você pode executar o arquivo gerado:
+     ```sh
+     ./stockbot
+     ```
+
+Isso irá compilar e executar o seu projeto StockBot baseado no arquivo [`src/main.c`](src/main.c).

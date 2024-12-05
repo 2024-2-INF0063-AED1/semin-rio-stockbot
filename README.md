@@ -54,7 +54,7 @@ Os entregáveis semanais serão encaminhados nas seguintes datas:
 - build/: Diretório contendo os arquivos gerados e utilizados pela CMakeLists.txt para configurar e compilar o projeto
 
 ### Como executar
-Para rodar o código, siga esses passos:
+Para rodar o código usando Linux, siga esses passos:
 
 1. **Instale o CMake**:
    - Certifique-se de que você tem o CMake instalado no seu sistema. Você pode baixá-lo em [cmake.org](https://cmake.org/download/).

@@ -1,3 +1,3 @@
-/home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles/inventory_manager.dir
+/home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles/stockbot.dir
 /home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles/edit_cache.dir
 /home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles/rebuild_cache.dir

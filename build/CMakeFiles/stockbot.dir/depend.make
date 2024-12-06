@@ -1,2 +1,2 @@
-# Empty dependencies file for inventory_manager.
+# Empty dependencies file for stockbot.
 # This may be replaced when dependencies are built.

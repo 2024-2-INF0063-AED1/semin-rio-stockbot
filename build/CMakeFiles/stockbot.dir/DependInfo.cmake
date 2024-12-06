@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lavi/ed1/semin-rio-stockbot/src/main.c" "CMakeFiles/inventory_manager.dir/src/main.c.o" "gcc" "CMakeFiles/inventory_manager.dir/src/main.c.o.d"
+  "/home/lavi/ed1/semin-rio-stockbot/src/main.c" "CMakeFiles/stockbot.dir/src/main.c.o" "gcc" "CMakeFiles/stockbot.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links.

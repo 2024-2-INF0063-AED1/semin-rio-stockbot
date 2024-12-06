@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named inventory_manager
+# Target rules for targets named stockbot
 
 # Build rule for target.
-inventory_manager: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inventory_manager
-.PHONY : inventory_manager
+stockbot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stockbot
+.PHONY : stockbot
 
 # fast build rule for target.
-inventory_manager/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory_manager.dir/build.make CMakeFiles/inventory_manager.dir/build
-.PHONY : inventory_manager/fast
+stockbot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockbot.dir/build.make CMakeFiles/stockbot.dir/build
+.PHONY : stockbot/fast
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory_manager.dir/build.make CMakeFiles/inventory_manager.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockbot.dir/build.make CMakeFiles/stockbot.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -142,7 +142,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory_manager.dir/build.make CMakeFiles/inventory_manager.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockbot.dir/build.make CMakeFiles/stockbot.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -150,7 +150,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory_manager.dir/build.make CMakeFiles/inventory_manager.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockbot.dir/build.make CMakeFiles/stockbot.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... inventory_manager"
+	@echo "... stockbot"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

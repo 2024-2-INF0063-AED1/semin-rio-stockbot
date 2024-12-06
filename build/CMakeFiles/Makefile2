@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/lavi/ed1/semin-rio-stockbot/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/inventory_manager.dir/all
+all: CMakeFiles/stockbot.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/inventory_manager.dir/clean
+clean: CMakeFiles/stockbot.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/inventory_manager.dir
+# Target rules for target CMakeFiles/stockbot.dir
 
 # All Build rule for target.
-CMakeFiles/inventory_manager.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory_manager.dir/build.make CMakeFiles/inventory_manager.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory_manager.dir/build.make CMakeFiles/inventory_manager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles --progress-num=1,2 "Built target inventory_manager"
-.PHONY : CMakeFiles/inventory_manager.dir/all
+CMakeFiles/stockbot.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockbot.dir/build.make CMakeFiles/stockbot.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockbot.dir/build.make CMakeFiles/stockbot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles --progress-num=1,2 "Built target stockbot"
+.PHONY : CMakeFiles/stockbot.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/inventory_manager.dir/rule: cmake_check_build_system
+CMakeFiles/stockbot.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/inventory_manager.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stockbot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lavi/ed1/semin-rio-stockbot/build/CMakeFiles 0
-.PHONY : CMakeFiles/inventory_manager.dir/rule
+.PHONY : CMakeFiles/stockbot.dir/rule
 
 # Convenience name for target.
-inventory_manager: CMakeFiles/inventory_manager.dir/rule
-.PHONY : inventory_manager
+stockbot: CMakeFiles/stockbot.dir/rule
+.PHONY : stockbot
 
 # clean rule for target.
-CMakeFiles/inventory_manager.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory_manager.dir/build.make CMakeFiles/inventory_manager.dir/clean
-.PHONY : CMakeFiles/inventory_manager.dir/clean
+CMakeFiles/stockbot.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockbot.dir/build.make CMakeFiles/stockbot.dir/clean
+.PHONY : CMakeFiles/stockbot.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

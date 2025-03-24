@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/stockbot.dir/src/main.c.o -o stockbot 

@@ -44,7 +44,7 @@ Os entregáveis semanais serão encaminhados nas seguintes datas:
 - [X] 29/11: Seção II (Fundamentos teóricos) e Seção IV (Resultados)
 - [X] 04/12: Relatório completo, contendo a Seção V (Conclusões) e o código fonte
 - [X] 05/12: Revisão entre pares (peer-review) e Slides
-- [ ] 06/12: Apresentação final
+- [X] 06/12: Apresentação final
 
 ### Organização do Repositório
 - src/: Código-fonte do sistema e scripts relacionados
